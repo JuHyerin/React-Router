@@ -6,6 +6,26 @@ import './App.css';
 import Profiles from "./Profiles";
 import HistorySample from "./HistorySample";
 
+
+// const routes = [
+//     {
+//         path: "/",
+//         component: Home
+//     },
+//     {
+//         path: "/about",
+//         component: About
+//     },
+//     {
+//         path: "/profiles",
+//         component: Profiles
+//     },
+//     {
+//         path: "/history",
+//         component: HistorySample
+//     },
+// ];
+
 function App() {
   return (
       <>
@@ -24,6 +44,7 @@ function App() {
               </li>
           </ul>
           <hr/>
+
           <Switch>
               <Route path="/" component={Home} exact/>
               <Route path="/about" component={About}/>
